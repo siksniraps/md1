@@ -1,0 +1,190 @@
+body {
+	background-image: url("wood.png");
+	margin: 0px;
+}
+
+#wrapper {
+	width: 960px;
+	height 100%;
+	margin: 0px auto;
+}
+
+#header {
+	position: relative;
+	width: 100%;
+	height: 100px;
+	float:left;
+}
+
+#company_name {
+	position: absolute;
+	font-family: 'Impact', regular;
+	font-size: 36px;
+	left: 140px;
+	top: 30px;
+}
+
+#footer {
+	position: relative;
+	width: 100%;
+	height: 100px;
+	float:left;
+	text-align: center;
+}
+
+#links{
+	position: absolute;
+	top: 40px;
+	left: 400px;
+}
+
+#links a{
+	font-family: 'Lucid Sans', regular;
+	font-size: 20px;
+	color: black;
+  text-decoration: none;
+}
+
+#content {
+	position: relative;
+	width: 100%;
+	height: 800px;
+	background-image: url("center.png");
+	float:left;
+}
+
+
+.red_text {
+	font-family: 'Nothing You Could Do', regular;
+  color: red;
+}
+
+.black_text {
+	font-family: 'Nothing You Could Do', regular;
+	color: black;
+}
+
+h1 {
+  font-size: 58px;
+  font-family: 'Nothing You Could Do', regular;
+}
+
+#line1 {
+  display: block;
+  position: absolute;
+  left: 245px;
+  top: 47px;
+}
+
+#line2 {
+  display: block;
+  position: relative;
+  left: 220px;
+  top: 74px;
+}
+
+#order_container {
+	position: absolute;
+	width: 363px;
+	height:185px;
+	left: 339px;
+	top: 230px;
+	transform-origin: right bottom;
+  transform: rotate(30deg);
+	overflow:hidden;
+}
+
+#order_btn {
+	width: 312px;
+	height: 185px;
+	float: right;
+	transform-origin: right bottom;
+  transform: rotate(-30deg);
+	background-image: url("button.png");
+}
+
+#order_text {
+	position: absolute;
+	font-size: 58px;
+	left: 62px;
+	top: 81px;
+	display: inline-block;
+	transform-origin: right bottom;
+  transform: rotate(30deg);
+}
+
+#order_btn:hover {
+	background-color: #a3c9cb;
+}
+
+#order_btn:active {
+	background-color: #ffd700;
+}
+
+.grey_text {
+	font-family: 'Nothing You Could Do', regular;
+	color: #5d5b55;
+}
+
+#quality_title {
+	position: absolute;
+	text-decoration: underline;
+	font-size: 30px;
+	left: 200px;
+	top: 490px;
+}
+
+#properties {
+	position: absolute;
+	font-size: 23px;
+	line-height: 22px;
+	top: 546px;
+	left: 200px;
+	padding-left: 20px;
+}
+
+#pink_container {
+	position: absolute;
+	width: 272px;
+	height:137px;
+	left: 470px;
+	top: 540px;
+	transform-origin: left top;
+  transform: rotate(30deg);
+	overflow:hidden;
+}
+
+#pink_btn {
+	width: 234px;
+	height: 137px;
+	float: left;
+	transform-origin: left top;
+  transform: rotate(-30deg);
+	background-image: url("pink_button.png");
+}
+
+#pink_btn_text {
+	position: absolute;
+	font-size: 25px;
+	left: 12px;
+	top: 103px;
+	display: inline-block;
+	transform-origin: right bottom;
+  transform: rotate(30deg);
+}
+
+#pink_btn:hover {
+	background-color: #a3c9cb;
+}
+
+#pink_btn:active {
+	background-color: #ffd700;
+}
+
+#ruler {
+	position: absolute;
+	width: 960px;
+	height: 623px;
+	left: 0px;
+	top: 117px;
+}
